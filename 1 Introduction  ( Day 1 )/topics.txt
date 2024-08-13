@@ -1,0 +1,50 @@
+1.
+Functions
+Conditional Statement
+Loops
+
+2.
+Algorithms
+Recursion
+
+3.
+Searching Algorithm
+  Linear Search
+  Binary Search
+
+4.
+Sorting Algorithm
+  Bubble Sort
+  Insertion Sort
+  Quick Sort
+  Merge Sort
+
+5.
+Dynamic Programming
+
+6.
+Greedy Algorithm
+
+7.
+Built In Data Structure
+
+8.
+Array
+Object
+String
+Set
+Map
+
+
+
+9.Custom Data Structure
+
+Linked List
+Stack
+Queue
+Tree
+Hash Table
+Graph
+
+
+
