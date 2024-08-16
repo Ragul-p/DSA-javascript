@@ -1,0 +1,102 @@
+1.What is Time Complexity ?
+    Time complexity tell us how much amount of time it will take to execute certain algorithm
+
+
+
+ - memory allocate to the program
+ - the number of process currently running
+ - the hardware
+ - the RAM
+ - much more
+
+
+3 kind of time complexity
+ - best 
+ - average
+ - worst
+
+
+
+i...
+
+function sumOfArray(nums){
+  let sum=0;  ------------------------->   1 
+    for(let i=0;i<nums.length;i++){ --->
+       sum =sum + num[i];              |   n
+    }         ------------------------->
+ return sum;  ------------------------->   1
+}
+
+
+     n + 2 = o(n+2)
+         o(n)
+
+
+ii...
+
+function sumOfMatrix(nums){
+  let sum=0;   --------------------------->                 1
+    for(let i=0;i<nums.length;i++){ ------>    innerloop -> n times
+       for(let j=0;j<nums.length;j++){    |
+          sum =sum +num[i][j]             |    outerloop -> n times
+       }                                  |
+    }  ----------------------------------->
+    return sum; --------------------------->                 1
+}
+
+matrix = [[1,2,3],
+          [2,3,6],
+          [5,9,0]]
+
+
+n * n = n2
+
+(n2+2)
+
+= o(n2)
+
+
+iii...
+
+function fn(nums){
+  ler arr=[];   -------------------->    1
+  for(let i=1 ;i<nums;i=i*2){
+     arr.push(i)
+  }
+ return arr;    -------------------->     1
+}
+
+time = 10  n=2 power 10
+
+log2n         o(log2n)
+
+
+iv...
+
+function sumOfDigits(num) {
+
+    let sum = 0;
+    while (num > 0) {         ------------>   n
+        sum = sum + (num % 10);
+        num = Math.floor(num / 10);  ----->  log n
+    }
+
+    return sum;
+}
+
+4235 = 14
+n = 4235    n=423
+          sum=5+3+2+4 =14
+count = 5
+
+10n(digits)
+
+o(log10n)
+
+
+
+2.Why do we need to take care ?
+3.How to calculate TC ?
+4.General Rules
+
+
