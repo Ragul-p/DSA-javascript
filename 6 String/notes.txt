@@ -1,0 +1,32 @@
+String:-
+  String is a collection of character
+
+  
+
+let firstName = "Angelina";
+let lastName = "Julie";
+const str = "Hello World ! Hello World";
+
+firstName.length
+firstName.charAt(0)
+firstName.charCodeAt(0)
+firstName.includes("a")
+firstName.indexOf("a")
+firstName.lastIndexOf("a")
+firstName.localeCompare(lastName)
+firstName.replace("a", "b")
+firstName.replaceAll("c", "d")
+str.substring(2, 8);
+str.slice(2, 8);
+str.search("!");
+str.split("!")
+str.join(" ");
+str.startsWith("H");
+str.endsWith("d");
+str.trim();
+str.toLowerCase();
+str.toUpperCase();
+str.toString();
+JSON.stringify(obj);
+JSON.parse(st);
+str.concat(str, " z", " ijk");

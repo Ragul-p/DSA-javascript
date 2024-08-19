@@ -1,0 +1,8 @@
+/*
+
+abc
+pqr
+
+output: apbqcr
+
+*/
