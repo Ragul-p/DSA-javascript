@@ -1,0 +1,6 @@
+ What is Recursion ?
+    A function that calls itself 
+
+    It Reduce The Code Of Line  10  to  5
+
+
