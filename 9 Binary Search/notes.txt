@@ -1,0 +1,41 @@
+
+Eg: Dictionary Book
+
+Start - A   FindName-V       End   - Z
+
+Not Sorted : O(N)
+
+
+
+
+
+
+
+arr:[1,2,3,4,5,6,7,8,9,10]
+
+index      first-0  last-9
+           0+9
+           9/2 = 4.5
+
+midPoint = 4
+
+[1,2,3,4]  [5]  [6,7,8,9,10]
+
+
+N -> N/2 -> N/4 -> N/8
+
+Time Complexity : T(N) = T(N/2)
+
+N -> N/2 -> N/4 -> N/2 k
+
+T(N) = K     N/2K=1    N = 2K 
+O(N) = log2N   log2N = K
+
+
+
+
+c/c++   - 10 power 9
+
+start + (end - start) /2
+
+(start + end)/2 
