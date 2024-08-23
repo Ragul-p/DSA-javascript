@@ -1,0 +1,9 @@
+arr=[1,5,8,10,12]
+x=9
+
+Floor : Greatest Integer Smaller Than x
+Eg:        
+   floor   8
+
+Ceil  : Smallest Integer Greater Than X
+   Ceil    10
