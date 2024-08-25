@@ -1,0 +1,6 @@
+Objects :-
+
+RealTime Example : A Man Has         Property : height, weight, color
+                                     Methods  : walk(), talk()
+
+                                     
