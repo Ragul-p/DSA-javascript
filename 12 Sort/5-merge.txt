@@ -1,0 +1,10 @@
+left    -> T(N/2);
+right   -> T(N/2);
+return  -> @(N)
+
+
+
+T(N) = 2 T(N/2) + ConstantTimeOf.N
+
+      =2[ 2*T(N/4) +  ]
+

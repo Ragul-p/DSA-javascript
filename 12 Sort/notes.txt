@@ -1,0 +1,6 @@
+Example of sort:-
+
+leetcode : easy, difficult, moderate
+shopping : price min 10000  max 25000
+
+https://visualgo.net/en/sorting

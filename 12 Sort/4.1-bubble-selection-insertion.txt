@@ -1,0 +1,14 @@
+
+
+
+Algorithm      TimeComplexity     BestTimeComplexity    SpaceComplexity     Inplace        StableSortOrNot
+                                                                         (Not Taking Any
+                                                                             Extra Place)
+
+
+Bubble           O(N2)               O(N)                 O(1)                Yes                yes        ["2a","2b"]
+
+Selection        O(N2)               O(N2)                O(1)                Yes                No        
+
+Insertion        O(N2)               O(N)                 O(1)                Yes                yes      
+
