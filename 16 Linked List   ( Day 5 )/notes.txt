@@ -1,0 +1,43 @@
+Pro : watch C++ Linked List Series
+
+Topics :-
+
+what is linked list
+D/B linked  list and array
+crud operation 
+
+interive problem:
+ 1.reverse a linked list
+ 2.middle of linked list
+ 3.cycle detection
+
+
+
+
+ collection of node
+
+
+ 1.singly linked list
+
+   1    2    3   4
+   ------> only forward ---->
+
+
+
+ 2.doubly linked list
+
+
+ head    1    2    3   4
+   ------>  forward ---->
+   <------  backward <----
+
+
+
+
+   1. Array store contineous memory
+   2. any element delete reallocate space 
+
+
+
+
+
