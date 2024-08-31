@@ -1,0 +1,7 @@
+
+LIFO - Last In First Out
+
+Eg : latest whats app message show First
+
+
+
